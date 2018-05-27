@@ -1,0 +1,22 @@
+﻿Build started 03/02/2018 18:48:07.
+     1>Project "C:\Users\master\Downloads\2CsSiq\Compil\BALAMANE_Asma_SIQ_G3\TP2_BALAMANE_Asma_PartieA_B\test\test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\tp.c ..\tp2l.c
+         tp2l.c
+     1>.\tp2l.l(12): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         tp.c
+     1>.\tp.y(56): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>.\tp.y(168): warning C4013: 'exit' undefined; assuming extern returning int
+     1>.\tp.y(180): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>.\tp.y(223): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\master\Downloads\2CsSiq\Compil\BALAMANE_Asma_SIQ_G3\TP2_BALAMANE_Asma_PartieA_B\Debug\test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msbcrtd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\master\Downloads\2CsSiq\Compil\BALAMANE_Asma_SIQ_G3\TP2_BALAMANE_Asma_PartieA_B\Debug\test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\master\Downloads\2CsSiq\Compil\BALAMANE_Asma_SIQ_G3\TP2_BALAMANE_Asma_PartieA_B\Debug\test.lib" /MACHINE:X86 ylmt.lib ylmtd.lib Debug\test.res
+         Debug\tp.obj
+         Debug\tp2l.obj
+         test.vcxproj -> C:\Users\master\Downloads\2CsSiq\Compil\BALAMANE_Asma_SIQ_G3\TP2_BALAMANE_Asma_PartieA_B\Debug\test.exe
+     1>Done Building Project "C:\Users\master\Downloads\2CsSiq\Compil\BALAMANE_Asma_SIQ_G3\TP2_BALAMANE_Asma_PartieA_B\test\test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.96
